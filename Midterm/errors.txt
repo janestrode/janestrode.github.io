@@ -1,0 +1,47 @@
+Jane Strode and Sam Kasten
+
+Errors in find_errors.html
+Line 55 Comment closing tag was missing 
+Line 25 </ul> instead of </ol> at the end of the list 
+Line 20 Number 6 list item had two list closing tags instead of a opening tag 
+The paragraph on line 12 had no opening tag
+<h1> on line 10 has no closing tag
+Line 27 missing paragraph closing tag
+The image on line 28 is missing alternate text
+Line 29 ‘a’ tag misplaced with ‘img’
+Line 29 Image spelling fixed from Image.png to image.jpg
+Line 45 Missing table closing tag 
+Line 39 has an opening tag as the closing tag for table data
+Line 47 uses “source” instead of src
+The image on line 47 is misspelled with “jpeg” instead of “jpg”
+line 65 ending tag was misplaced as h3 instead of h2
+Line 57 is missing a closing </a> tag
+Line 59 the paragraph is closed before the style tag, they should be switched
+Line 49 is missing an opening and closing paragraph tag
+Line 49 is missing the strikethrough text tag 
+Line 51 Text color was missing the style tag 
+Line 1 missing !DOCTYPE html
+Line 8 missing closing header tag
+Line 59 underlined text was not underlined 
+Line 62 needed to be a <dt> tag instead of a <li>
+Line 63 needed to be a <dd> tag instead of a <li>
+Line 53 missing backslash 
+total errors: 25
+
+Errors in find_errors_2.html
+Html tag on line 6 in wrong spot
+Missing html tag line 2
+Line 19 html closing tag missing “l”
+<div> line 8 missing closing tag
+Line 7 <body is missing a carrot
+Line 9 <p> is missing the closing tag
+Line 12 image missing its alt text
+Line 14 missing opening h2 tag
+Line 16 missing opening <p> tag
+Line 12 uses href instead of src for the image
+Line 12 the image name is missing an underscore
+Line 17 comment is incorrect
+Line 3 head is missing its closing tag added in line 6
+Line 7 body is missing its closing tag added in line 18
+Line 9 the strong tag was never closed 
+total errors: 15
