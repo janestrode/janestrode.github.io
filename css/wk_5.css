@@ -1,0 +1,11 @@
+p {
+    color: red;
+    font-family: sans-serif;
+    /* px, em, % */
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 900;
+}
+table {
+    color: #66082f;
+}
