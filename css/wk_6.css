@@ -1,0 +1,18 @@
+p{
+    color:red;
+}
+
+.purple{
+    color: purple;
+}
+#blue{
+    color: blue;
+}
+
+div{
+    border-style: dashed;
+    border-color: red;
+    padding: 30px;
+    margin: 30px;
+
+}
