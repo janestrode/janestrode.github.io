@@ -1,0 +1,43 @@
+@media screen and (max-width: 800px){
+    body{
+        background-color: limegreen;
+    }
+    ul{
+        flex-direction: column;
+
+    }
+    li a{
+        width: 100vw;
+    }
+}
+body{
+    margin:0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    margin: 0;
+    padding: 10px 0px;
+    justify-content: flex-end;
+    font-size: 16px
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    transition: color 1s, font-size 1s;
+}
+
+li a:hover{
+    background-color: darkslategray;
+    color: yellow;
+    font-size: 32px;
+}
+
+li a:active{
+    background-color: white;
+    color:black;
+}
