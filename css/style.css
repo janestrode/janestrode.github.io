@@ -23,7 +23,10 @@ body {
   height: 480px;
   background-color: rgba(0,0,0,0);
 }
-
+.displayed-img{
+  width: 640px;
+  height: 480px;
+}
 button {
   border: 0;
   background: rgba(150,150,150,0.6);
