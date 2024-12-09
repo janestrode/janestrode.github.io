@@ -29,7 +29,7 @@ for (button of document.querySelectorAll("#buttons button")){
 }
 
 function sortProjects(button){
-    if(button = "clear)"){
+    if(button = "clear"){
         for(i=0; i<proj.projects.length; i++){
             document.getElementById(proj.projects[i].subdomain).style.display = "flex";
         }
