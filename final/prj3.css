@@ -1,3 +1,15 @@
+#about{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 20vw;
+    border: 1px solid black;
+}
+
+#about img{
+    width: 25vw;
+    padding: 10px;
+}
+
 #projects{
     display: flex;
     flex-direction:column;
@@ -22,7 +34,8 @@
 }
 
 .project img{
-    width:10vw;
+    width:25vw;
+    padding: 10px;
 }
 
 #buttons{

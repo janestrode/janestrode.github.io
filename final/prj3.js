@@ -13,15 +13,15 @@ fetch('../final/projects.json')
 function parseData(data){
     for(let i=0; i<data.projects.length; i++){
     document.getElementById("projects").innerHTML += `<a href="/final/${data.projects[i].subdomain}.html">
-    <div class="row project" id=${data.projects[i].subdomain}">
-        <div class="projimg"><img src="final/img/ (${i+1}).jpeg"></div>
+    <div class="row project" id="${data.projects[i].subdomain}">
+        <div class="projimg"><img src="../final/img/mainimage (${i+1}).png"></div>
         <div class="description"><h2>${data.projects[i].name}</h2><p class="subtitle">${data.projects[i].subtitle}
         <p>${data.projects[i].abstract}</p></div></div>`;
     }
 }
 
-for (button of document.querySelectorAll("#buttons button")){
-    button,addEventListener("click", e=>{
+for (b of document.querySelectorAll("#buttons button")){
+    b.addEventListener("click", e=>{
         console.log(e.target.value);
         sortProjects(e.target.value);
 
@@ -29,13 +29,13 @@ for (button of document.querySelectorAll("#buttons button")){
 }
 
 function sortProjects(button){
-    if(button = "clear"){
+    if(button == "clear"){
         for(i=0; i<proj.projects.length; i++){
             document.getElementById(proj.projects[i].subdomain).style.display = "flex";
         }
     }else if(button != undefined){
         for(i=0; i<proj.projects.length;i++){
-            if(proj.projects[i].category.inculdes(button) == true){
+            if(proj.projects[i].category.includes(button) == true){
                 document.getElementById(proj.projects[i].subdomain).style.display = "flex";
             }else{
                 document.getElementById(proj.projects[i].subdomain).style.display = "none";
@@ -43,6 +43,6 @@ function sortProjects(button){
         }
         
     }else{
-        console.log("error, buttonvalue is undefined");
+        console.log("error, button value is undefined");
     }
 }
