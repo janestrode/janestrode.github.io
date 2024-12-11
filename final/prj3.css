@@ -1,36 +1,130 @@
+body {
+    background-color: #DFF2EB;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #7AB2D3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo and Title */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-title h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.decor {
+    display:flex;
+    justify-content:center;
+    flex-grow: 1.75;
+    align-items:center;
+
+}
+
+.decor img{
+    height: 50px;
+}
+
+/* Nav Buttons */
+
+#buttons{
+    display: flex;
+    background-color:#7AB2D3;
+}
+#buttons button{
+    padding: 5px 15px; 
+    border-radius: 50px;
+    background-color: #4A628A;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: .9em; 
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#buttons button {
+    padding: 5px 15px; 
+     border-radius: 50px;
+    background-color: #4A628A;
+    color: white;
+
+    text-decoration: none;
+     font-size: 1.2em; 
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+#buttons button:hover {
+    background-color: #DFF2EB;
+    color:#4A628A;
+}
+
 #about{
     display: flex;
     flex-direction: row;
     margin: 10vh 20vw;
-    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 
 #about img{
-    width: 25vw;
+    width: 30vw;
     padding: 10px;
+}
+
+#about h1{
+    color:#4A628A;
 }
 
 #projects{
     display: flex;
     flex-direction:column;
     margin: 10vh 20vw;
+    
 }
-
+#content{
+    padding: 15px 20px;
+}
 #projects a{
     text-decoration:none;
     color:black;
 }
 
+#projects h2{
+    color:#4A628A;
+}
+
 .project:hover{
-    background-color:rgb(180, 255, 165);
+    background-color:#B9E5E8;
 }
 
 .project{
     display:flex;
     flex-direction:row;
-    border: 1px solid black;
     margin-top:10px;
     padding: 15px 20px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .project img{

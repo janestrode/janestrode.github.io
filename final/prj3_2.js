@@ -25,8 +25,8 @@ function findProjectinJSON(projects){
 
 function buildPage(project){
     console.log(project);
-    document.getElementById("project").innerHTML += `<h1>${project.name}</h1>
-    <h3>${project.subtitle}</h3><p>${project.abstract}</p>`;
+    document.getElementById("project").innerHTML += `<div class= "title"><h1>${project.name}</h1></div>
+    <div class = "subtitle" <h3>${project.subtitle}</h3></div><div class= "description"><p>${project.abstract}</p></div>`;
 }
 
 

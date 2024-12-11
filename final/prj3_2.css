@@ -1,0 +1,94 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color:#7AB2D3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo and Title */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-title h1 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Nav Buttons */
+.nav-buttons {
+
+    display: flex;
+    gap: 10px; 
+}
+
+.nav-btn {
+    padding: 5px 15px; 
+     border-radius: 50px;
+    background-color: #4A628A;
+    color: white;
+
+    text-decoration: none;
+     font-size: 1.2em; 
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #DFF2EB;
+    color:#4A628A;
+}
+
+
+body{
+    background-color:#DFF2EB;
+}
+
+#project{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+#project p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#project h1{
+    color:#4A628A;
+}
+
+.subtitle{
+    font-weight: bold;
+}
+
+#images {
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#images img{
+    padding: 10px;
+}
+
+
